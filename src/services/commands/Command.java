@@ -1,7 +1,4 @@
 package services.commands;
 public interface Command{
-
-  public void run();
-  public String list();
-
+  public void run(String[] params);
 }
