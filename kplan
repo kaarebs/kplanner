@@ -1,0 +1,3 @@
+#!/bin/bash
+# run planner in classes dir
+java -cp ./classes Planner kp $@
