@@ -7,7 +7,7 @@ public class CommanderFactory{
   public static Command findCommand(String cmd){
     try {
       Class<?> c = null;
-      c = Class.forName("services.commands." + cmd);
+      c = Class.forName("services.commands." + Helper.upperFirst(cmd));
       Command command = null;
       command = (Command) c.newInstance();
       return command;
