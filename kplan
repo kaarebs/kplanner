@@ -1,3 +1,3 @@
 #!/bin/bash
-# run planner in classes dir
+# run planner in classes dir and append all arguments from command line
 java -cp ./classes Planner kp $@
